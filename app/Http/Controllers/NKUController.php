@@ -27,4 +27,10 @@ class NKUController extends Controller
     public function Mice(){
         return view('services.Mice');
     }
+    public function list(){
+        return view('ListEvent');
+    }
+    public function image(){
+        return view('ImageEvent');
+    }
 }

@@ -245,5 +245,35 @@
       }
     }
   });
+  // Load more Event
+  let loadMore2Btn = document.querySelector('#load-more2');
+  let currentItem2 = 2;
+
+loadMore2Btn.onclick = () =>{
+   let boxes2 = [...document.querySelectorAll('.container .row .col-sm-6')];
+   for (var p = currentItem2; p < currentItem2 + 5; p++){
+      boxes2[p].style.display = 'inline-block';
+   }
+   currentItem2 += 5;
+
+   if(currentItem2 >= boxes2.length){
+      loadMore2Btn.style.display = 'none';
+   }
+}
+// Load more keyperson
+let loadMoreBtn = document.querySelector('#load-more');
+let currentItem = 3;
+
+loadMoreBtn.onclick = () =>{
+   let boxes = [...document.querySelectorAll('.container .box-container .box')];
+   for (var i = currentItem; i < currentItem + 3; i++){
+      boxes[i].style.display = 'inline-block';
+   }
+   currentItem += 3;
+
+   if(currentItem >= boxes.length){
+      loadMoreBtn.style.display = 'none';
+   }
+}
 
 })()

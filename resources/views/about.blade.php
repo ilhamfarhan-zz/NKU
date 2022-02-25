@@ -25,11 +25,11 @@
           </li>
           <li class="dropdown"><a href="#"><span>Event</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="{{route('ListEvent') }}">List Event</a></li>
-              <li><a href="{{route('EventImage') }}">Image</a></li>
+              <li><a href="{{route('list') }}">List Event</a></li>
+              <li><a href="{{route('image') }}">Image</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="{{route('contact') }}">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>

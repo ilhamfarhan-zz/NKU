@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link rel="icon" href="{{ asset('img/sample/logo.png') }}"> 
+  <link rel="icon" href="{{ asset('img/sample/logo.ico') }}"> 
   <link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}"> 
 
   <!-- Font Awesome icons (free version)-->
@@ -48,40 +48,6 @@
 
   <!-- Template Main JS File -->
   <script src="{{ asset('js/main.js') }}"></script> 
-  <script>
-
-let loadMoreBtn = document.querySelector('#load-more');
-let currentItem = 3;
-
-loadMoreBtn.onclick = () =>{
-   let boxes = [...document.querySelectorAll('.container .box-container .box')];
-   for (var i = currentItem; i < currentItem + 3; i++){
-      boxes[i].style.display = 'inline-block';
-   }
-   currentItem += 3;
-
-   if(currentItem >= boxes.length){
-      loadMoreBtn.style.display = 'none';
-   }
-}
-</script>
-<script>
-let loadMore2Btn = document.querySelector('#load-more2');
-let currentItem2 = 2;
-
-loadMore2Btn.onclick = () =>{
-   let boxes2 = [...document.querySelectorAll('.container .row .col-sm-6')];
-   for (var p = currentItem2; p < currentItem2 + 2; p++){
-      boxes2[p].style.display = 'inline-block';
-   }
-   currentItem2 += 2;
-
-   if(currentItem2 >= boxes2.length){
-      loadMore2Btn.style.display = 'none';
-   }
-}
-
-</script>
 
 </body>
 

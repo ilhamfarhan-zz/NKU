@@ -16,17 +16,17 @@
           <li><a class="nav-link scrollto " href="#keyPerson">Key Person</a></li>
           <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="eventConcept.html">Event Concept</a></li>
-              <li><a href="mice.html">MICE</a></li>
-              <li><a href="mediaExposure.html">Media Exposure</a></li>
-              <li><a href="eventEntertainment.html">Event Entertainment</a></li>
-              <li><a href="eventManagement.html">Event Management</a></li>
+              <li><a href="#services">Event Concept</a></li>
+              <li><a href="#services">MICE</a></li>
+              <li><a href="#services">Media Exposure</a></li>
+              <li><a href="#services">Event Entertainment</a></li>
+              <li><a href="#services">Event Management</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Event</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="listEvent.html">List Event</a></li>
-              <li><a href="eventImage.html">Image</a></li>
+              <li><a href="#event">List Event</a></li>
+              <li><a href="#event">Image</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -437,6 +437,18 @@
       </div>
     </section>
     <!-- End Services Section -->
+    <!-- Event Section -->
+    <section id="event" class="event">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <h3>We do offer awesome </h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        </div>
+      </div>
+    </section>
+        <!-- END Event Section -->
   </main>
   <!-- End #main -->
 

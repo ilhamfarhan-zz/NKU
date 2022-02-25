@@ -27,3 +27,5 @@ route::get('/EventEntertainment',[NKUController::class,'EventEntertainment'])->n
 route::get('/EventManagement',[NKUController::class,'EventManagement'])->name('EventManagement');
 route::get('/MediaExposure',[NKUController::class,'MediaExposure'])->name('MediaExposure');
 route::get('/Mice',[NKUController::class,'Mice'])->name('Mice');
+route::get('/List-Event',[NKUController::class,'list'])->name('list');
+route::get('/Image-Event',[NKUController::class,'image'])->name('image');

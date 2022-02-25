@@ -1,78 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layout.layout')
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+@section('content')
 
-  <title>List Event</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Font Awesome icons (free version)-->
-  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+    <!-- ======= Nav-bar ======= -->
+    <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
       <!-- <h1 class="logo"><a href="index.html">eNno</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo"><img src="assets/img/sample/nkulogo.jpeg" alt="" class="img-fluid"></a>
+      <a href="{{route('index') }}" class="logo"><img src="{{ asset('img/sample/logo.png') }}" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html">About</a></li>
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="{{route('index') }}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{route('about') }}">About</a></li>
+          <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="eventConcept.html">Event Concept</a></li>
-              <li><a href="mice.html">MICE</a></li>
-              <li><a href="mediaExposure.html">Media Exposure</a></li>
-              <li><a href="eventEntertainment.html">Event Entertainment</a></li>
-              <li><a href="eventManagement.html">Event Management</a></li>
+              <li><a href="#" class="nav-link scrollto active">Event Concept</a></li>
+              <li><a href="{{route('Mice') }}">MICE</a></li>
+              <li><a href="{{route('MediaExposure') }}">Media Exposure</a></li>
+              <li><a href="{{route('EventEntertainment') }}">Event Entertainment</a></li>
+              <li><a href="{{route('EventManagement') }}">Event Management</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto " href="index.html">Key Person</a></li>
-          <li class="dropdown active"><a href=""><span>Event</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Event</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="listEvent.html">List Event</a></li>
-              <li><a href="eventImage.html">Image</a></li>
+              <li><a href="{{route('list') }}">List Event</a></li>
+              <li><a href="{{route('image') }}">Image</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="index.html">Contact</a></li>
-          <li><a class="getstarted scrollto" href="index.html">Get Started</a></li>
+          <li><a class="nav-link scrollto" href="#">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+      </nav>
     </div>
   </header>
   <!-- End Header -->
   
   <main id="main">
-    <div class="container" style="margin-top: 10vh; margin-bottom: 20vh;">
+    <div class="container" style="margin-top: 140px; margin-bottom: 30px;">
         <div class="section-title">
             <h2>List Event</h2>
             <h3><span>List Event</span></h3>
@@ -82,36 +48,121 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                  Accordion Item #1
+                  Upcomming Event
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                ...
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                  Accordion Item #2
+                  2021
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                ...
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                  Accordion Item #3
+                  2020
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <tr>
+                    <p>PRB 2020</p>
+                  </tr>
+                  <tr>
+                    <p>BIMTEK TOT INAPORTNET</p>
+                  </tr>
+                  <tr>
+                    <p>FGD UKM</p>
+                  </tr>
+                  <tr>
+                    <p>HARTEKNAS</p>
+                  </tr>
+                  <tr>
+                    <p>FGD USAHA JASA TRANSPORTASI LAUT</p>
+                  </tr>
+                  <tr>
+                    <p>KONSYERING EVALUASI TRAYEK</p>
+                  </tr>
+                  <tr>
+                    <p>KONSYERING EVALUASI TRAYEK II</p>
+                  </tr>
+                  <tr>
+                    <p>PRB 2020</p>
+                  </tr>
+                  <tr>
+                    <p>FGD USAHA JASA TRANSPORTASI LAUT</p>
+                  </tr>
+                  <tr>
+                    <p>KONSIYERING PENYUSUNAN BUKU</p>
+                  </tr>
+                  <tr>
+                    <p>WORKSHOP UKM</p>
+                  </tr>
+                  <tr>
+                    <p>EVALUASI KEG INAPORTNET 2020</p>
+                  </tr>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+                  2019
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfour">
+                <div class="accordion-body">
+                  <tr>
+                    <p>FASILITASI PEMETAAN DOK TEKNIS BT</p>
+                  </tr>
+                  <tr>
+                    <p>FGD PENYAJIAN DATA ANGKUTAN LAUT</p>
+                  </tr>
+                  <tr>
+                    <p>FGD IMPELEMENTASI UU NO 17 2008 </p>
+                  </tr>
+                  <tr>
+                    <p>FGD PENYUSUNAN REVISI PM 157 2015 INAPORTNET</p>
+                  </tr>
+                  <tr>
+                    <p>FGD SLS INAPORTNET</p>
+                  </tr>
+                  <tr>
+                    <p>PRB 2019</p>
+                  </tr>
+                  <tr>
+                    <p>HARTEKNAS</p>
+                  </tr>
+                  <tr>
+                    <p>MALAM APRESIASI</p>
+                  </tr>
+                  <tr>
+                    <p>FGD HARMONISASI DAN SINKRONISASI</p>
+                  </tr>
+                  <tr>
+                    <p>FGD PENYAJIAN DATA ANGKUTAN LAUT</p>
+                  </tr>
+                  <tr>
+                    <p>FGD KEMUDAHAN BERUSAHA</p>
+                  </tr>
+                  <tr>
+                    <p>FGD SIMPLIKASI DAN PERIJINAN</p>
+                  </tr>
+                  <tr>
+                    <p>DISEMINASI KEBIJAKAN PENANAMAN MODAL</p>
+                  </tr>
                 </div>
               </div>
             </div>
@@ -123,43 +174,51 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
 
-    <div class="footer-top">
+<div class="footer-top contact">
 
-      <div class="container">
+    <div class="container">
 
-        <div class="row  justify-content-center">
-          <div class="col-lg-6">
-            <h3>Nasaa Kreasi utama</h3>
-          </div>
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="info">
+                    <div class="address">
+                        <i class="bi bi-geo-alt"></i>
+                        <h4>Location:</h4>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links col-sm-3">
+                <h4>Sosial Media :</h4>
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <div class="info">
+                    <h4>Contact Us :</h4>
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h5>Email:</h5>
+                            <p>info@example.com</p>
+                        </div>
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h5>Call:</h5>
+                            <p>+1 5589 55488 55s</p>
+                        </div>
+                </div>
+            </div>
         </div>
-
-        <div class="social-links">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-
       </div>
     </div>
-  </footer>
-  <!-- End Footer -->
+  </div>
+
+</footer>
 
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+  @endsection
