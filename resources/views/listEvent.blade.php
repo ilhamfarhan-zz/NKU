@@ -16,7 +16,7 @@
           <li><a class="nav-link scrollto" href="{{route('about') }}">About</a></li>
           <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#" class="nav-link scrollto active">Event Concept</a></li>
+              <li><a href="{{route('EventConcept') }}">Event Concept</a></li>
               <li><a href="{{route('Mice') }}">MICE</a></li>
               <li><a href="{{route('MediaExposure') }}">Media Exposure</a></li>
               <li><a href="{{route('EventEntertainment') }}">Event Entertainment</a></li>
@@ -25,7 +25,7 @@
           </li>
           <li class="dropdown"><a href="#"><span>Event</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="{{route('list') }}">List Event</a></li>
+              <li><a href="#" class="nav-link scrollto active">List Event</a></li>
               <li><a href="{{route('image') }}">Image</a></li>
             </ul>
           </li>
@@ -170,54 +170,6 @@
     </div>
     
   </main>
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-
-<div class="footer-top contact">
-
-    <div class="container">
-
-        <div class="row">
-            <div class="col-sm-5">
-                <div class="info">
-                    <div class="address">
-                        <i class="bi bi-geo-alt"></i>
-                        <h4>Location:</h4>
-                        <p>A108 Adam Street, New York, NY 535022</p>
-                    </div>
-                </div>
-            </div>
-            <div class="social-links col-sm-3">
-                <h4>Sosial Media :</h4>
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-            <div class="col-sm-4">
-                <div class="info">
-                    <h4>Contact Us :</h4>
-                        <div class="email">
-                            <i class="bi bi-envelope"></i>
-                            <h5>Email:</h5>
-                            <p>info@example.com</p>
-                        </div>
-                        <div class="phone">
-                            <i class="bi bi-phone"></i>
-                            <h5>Call:</h5>
-                            <p>+1 5589 55488 55s</p>
-                        </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</footer>
-
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

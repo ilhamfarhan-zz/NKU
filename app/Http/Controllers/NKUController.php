@@ -33,4 +33,7 @@ class NKUController extends Controller
     public function image(){
         return view('ImageEvent');
     }
+    public function contact(){
+        return view('contact');
+    }
 }

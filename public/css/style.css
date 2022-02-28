@@ -707,6 +707,7 @@ section {
   padding-left: 60px;
 }
 .contact .php-email-form {
+  margin-top: 90px;
   width: 100%;
   border-top: 3px solid #36b9e3;
   border-bottom: 3px solid #36b9e3;
@@ -1044,4 +1045,23 @@ section {
 }
 .accordion-body{
   text-align: center;
+}
+.contact .title{
+  padding-bottom: 30px;
+}
+.location{
+  margin-top: 180px;
+  text-align: center;
+}
+.location h4{
+  color: black;
+}
+.map{
+  min-height:296px;
+  min-width: 296px;
+  width: 480px;
+  height: 480px;
+}
+.img-event{
+  padding-bottom: 140px;
 }

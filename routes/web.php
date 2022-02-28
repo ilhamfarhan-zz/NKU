@@ -29,3 +29,4 @@ route::get('/MediaExposure',[NKUController::class,'MediaExposure'])->name('Media
 route::get('/Mice',[NKUController::class,'Mice'])->name('Mice');
 route::get('/List-Event',[NKUController::class,'list'])->name('list');
 route::get('/Image-Event',[NKUController::class,'image'])->name('image');
+route::get('/Contact',[NKUController::class,'contact'])->name('contact');
