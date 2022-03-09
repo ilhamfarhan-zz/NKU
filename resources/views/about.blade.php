@@ -16,11 +16,11 @@
           <li><a class="nav-link scrollto active" href="#">About</a></li>
           <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="{{route('EventConcept') }}">Event Concept</a></li>
-              <li><a href="{{route('Mice') }}">MICE</a></li>
-              <li><a href="{{route('MediaExposure') }}">Media Exposure</a></li>
-              <li><a href="{{route('EventEntertainment') }}">Event Entertainment</a></li>
-              <li><a href="{{route('EventManagement') }}">Event Management</a></li>
+              <li><a href="{{route('conference') }}">Event Conferencet</a></li>
+              <li><a href="{{route('entertainment') }}">Event Entertainment</a></li>
+              <li><a href="{{route('exhibitions') }}">Event Exhibitions</a></li>
+              <li><a href="{{route('incentives') }}">Event Incentives</a></li>
+              <li><a href="{{route('meetings') }}">Event Meetings</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Event</span> <i class="bi bi-chevron-down"></i></a>

@@ -16,11 +16,11 @@
           <li><a class="nav-link scrollto " href="#keyPerson">Key Person</a></li>
           <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#services">Event Concept</a></li>
-              <li><a href="#services">MICE</a></li>
-              <li><a href="#services">Media Exposure</a></li>
+              <li><a href="#services">Event Conferencet</a></li>
               <li><a href="#services">Event Entertainment</a></li>
-              <li><a href="#services">Event Management</a></li>
+              <li><a href="#services">Event Exhibitions</a></li>
+              <li><a href="#services">Event Incentives</a></li>
+              <li><a href="#services">Event Meetings</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Event</span> <i class="bi bi-chevron-down"></i></a>
@@ -104,36 +104,6 @@
       </div>
     </section>
     <!-- End About Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="page-section counts bg-light">
-      <div class="container">
-        <h3 id="about" class="title">Mission and Commitment to client</h3>
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="title">Mission</h5>
-                  <p class="card-text">Eget pellentesque nisi tempus porta. Vel tincidunt molestie eu malesuada sagittis, platea lectus. Orci duis nulla nibh porta quisque ornare. Scelerisque diam eget est sit pharetra est venenatis. Lorem gravida elementum eget ut odio mauris augue libero ipsum. In massa et ac, et bibendum. Sagittis elementum convallis egestas euismod volutpat mauris. Neque eget diam, facilisis eu varius urna nulla. Egestas eget facilisis nibh turpis netus purus nibh. Volutpat vel cursus non leo turpis vitae maecenas. Maecenas viverra a nec feugiat eros ornare. Proin tristique arcu risus ac risus in nibh. Malesuada turpis faucibus lacus lorem.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="title">Commitment</h5>
-                  <p class="card-text">Eget pellentesque nisi tempus porta. Vel tincidunt molestie eu malesuada sagittis, platea lectus. Orci duis nulla nibh porta quisque ornare. Scelerisque diam eget est sit pharetra est venenatis. Lorem gravida elementum eget ut odio mauris augue libero ipsum. In massa et ac, et bibendum. Sagittis elementum convallis egestas euismod volutpat mauris. Neque eget diam, facilisis eu varius urna nulla. Egestas eget facilisis nibh turpis netus purus nibh. Volutpat vel cursus non leo turpis vitae maecenas. Maecenas viverra a nec feugiat eros ornare. Proin tristique arcu risus ac risus in nibh. Malesuada turpis faucibus lacus lorem.</p>
-                </div>
-             </div>
-            </div>
-          </div>
-          <div class="btn-about">
-            <a href="{{route('about') }}" class="btn btn-outline-primary">Learn More</a>
-          </div>
-      </div>
-    </section>
-    
-    <!-- End Counts Section -->
 
     <!-- keyPerson Grid-->
     <section class="page-section" id="keyPerson">
@@ -343,10 +313,8 @@
     <section id="services" class="services">
       <div class="container">
 
-        <div class="section-title">
-          <h2>Services</h2>
-          <h3>We do offer awesome </h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      <div class="section-title">
+          <h2>Products & Services</h2>
         </div>
 
         <div class="row">
@@ -358,9 +326,9 @@
                     <img src="{{asset('img/service/concert.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
-                    <h5 class="card-title" style="margin-top:20px">Event concept</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="{{route('EventConcept') }}" class="btn btn-outline-primary">Go somewhere</a>
+                    <h5 class="card-title" style="margin-top:20px">Meetings</h5>
+                    <p class="card-text">Whether planning a multi-city nationwide series of dinner.......</p>
+                    <a href="{{route('meetings') }}" class="btn btn-outline-primary">Read More</a>
                   </div>
                   </div>
                 </div>
@@ -374,9 +342,9 @@
                     <img src="{{asset('img/service/board-meeting.png')}}" style="width:140px;height:140px; margin:20px" alt="...">
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
-                    <h5 class="card-title" style="margin-top:20px">MICE</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="{{route('Mice') }}" class="btn btn-outline-primary">Go somewhere</a>
+                    <h5 class="card-title" style="margin-top:20px">Incentives</h5>
+                    <p class="card-text">Drive to provide outstanding solutions to all traveling.....</p>
+                    <a href="{{route('incentives') }}" class="btn btn-outline-primary">Read More</a>
                   </div>
                   </div>
                 </div>
@@ -390,9 +358,9 @@
                     <img src="{{asset('img/service/bullhorn.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
-                    <h5 class="card-title" style="margin-top:20px">Media Exposure</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="{{route('MediaExposure') }}" class="btn btn-outline-primary">Go somewhere</a>
+                    <h5 class="card-title" style="margin-top:20px">Entertainment & Cultural Events</h5>
+                    <p class="card-text">Bridging your event to a higher profile and wider.....</p>
+                    <a href="{{route('entertainment') }}" class="btn btn-outline-primary">Read More</a>
                   </div>
                   </div>
                 </div>
@@ -406,9 +374,9 @@
                     <img src="{{asset('img/service/event.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
-                    <h5 class="card-title" style="margin-top:20px">Event Entertainment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="{{route('EventEntertainment') }}" class="btn btn-outline-primary">Go somewhere</a>
+                    <h5 class="card-title" style="margin-top:20px">conference</h5>
+                    <p class="card-text">Provide a full solution in conference management services...........</p>
+                    <a href="{{route('conference') }}" class="btn btn-outline-primary">Read More</a>
                   </div>
                   </div>
                 </div>
@@ -422,9 +390,9 @@
                     <img src="{{asset('img/service/schedule.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
-                    <h5 class="card-title" style="margin-top:20px">Event Management</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="{{route('EventManagement') }}" class="btn btn-outline-primary">Go somewhere</a>
+                    <h5 class="card-title" style="margin-top:20px">Exhibitions</h5>
+                    <p class="card-text">We offer a full range package from conceptualization.....</p>
+                    <a href="{{route('exhibitions') }}" class="btn btn-outline-primary">Read More</a>
                   </div>
                   </div>
                 </div>

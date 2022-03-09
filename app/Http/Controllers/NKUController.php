@@ -12,20 +12,20 @@ class NKUController extends Controller
     public function about(){
         return view('about');
     }
-    public function EventConcept(){
-        return view('services.EventConcept');
+    public function conference(){
+        return view('services.conference');
     }
-    public function EventEntertainment(){
-        return view('services.EventEntertainment');
+    public function entertainment(){
+        return view('services.entertainment');
     }
-    public function EventManagement(){
-        return view('services.EventManagement');
+    public function exhibitions(){
+        return view('services.exhibitions');
     }
-    public function MediaExposure(){
-        return view('services.MediaExposure');
+    public function incentives(){
+        return view('services.incentives');
     }
-    public function Mice(){
-        return view('services.Mice');
+    public function meetings(){
+        return view('services.meetings');
     }
     public function list(){
         return view('ListEvent');

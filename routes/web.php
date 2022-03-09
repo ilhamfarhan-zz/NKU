@@ -22,11 +22,11 @@ Route::get('/', function () {
 Route::resource('nku', NKUController::class);
 route::get('/Home',[NKUController::class,'index'])->name('index');
 route::get('/About',[NKUController::class,'about'])->name('about');
-route::get('/EventConcept',[NKUController::class,'EventConcept'])->name('EventConcept');
-route::get('/EventEntertainment',[NKUController::class,'EventEntertainment'])->name('EventEntertainment');
-route::get('/EventManagement',[NKUController::class,'EventManagement'])->name('EventManagement');
-route::get('/MediaExposure',[NKUController::class,'MediaExposure'])->name('MediaExposure');
-route::get('/Mice',[NKUController::class,'Mice'])->name('Mice');
+route::get('/Conference',[NKUController::class,'conference'])->name('conference');
+route::get('/Entertainment',[NKUController::class,'entertainment'])->name('entertainment');
+route::get('/Exhibitions',[NKUController::class,'exhibitions'])->name('exhibitions');
+route::get('/Incentives',[NKUController::class,'incentives'])->name('incentives');
+route::get('/Meetings',[NKUController::class,'meetings'])->name('meetings');
 route::get('/List-Event',[NKUController::class,'list'])->name('list');
 route::get('/Image-Event',[NKUController::class,'image'])->name('image');
 route::get('/Contact',[NKUController::class,'contact'])->name('contact');

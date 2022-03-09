@@ -251,7 +251,7 @@
 
 loadMore2Btn.onclick = () =>{
    let boxes2 = [...document.querySelectorAll('.container .row .col-sm-6')];
-   for (var p = currentItem2; p < currentItem2 + 5; p++){
+   for (var p = currentItem2; p < currentItem2 + 3; p++){
       boxes2[p].style.display = 'inline-block';
    }
    currentItem2 += 5;
