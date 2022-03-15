@@ -323,7 +323,7 @@
                 <div class="card-body">
                   <div class="row">
                   <div class="form-group col-md-6">
-                    <img src="{{asset('img/service/concert.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
+                    <img src="{{asset('img/service/meetings.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
                     <h5 class="card-title" style="margin-top:20px">Meetings</h5>
@@ -339,7 +339,7 @@
                 <div class="card-body">
                   <div class="row">
                   <div class="form-group col-md-6">
-                    <img src="{{asset('img/service/board-meeting.png')}}" style="width:140px;height:140px; margin:20px" alt="...">
+                    <img src="{{asset('img/service/Incentives.png')}}" style="width:140px;height:140px; margin:20px" alt="...">
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
                     <h5 class="card-title" style="margin-top:20px">Incentives</h5>
@@ -371,7 +371,7 @@
                 <div class="card-body">
                   <div class="row">
                   <div class="form-group col-md-6">
-                    <img src="{{asset('img/service/event.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
+                    <img src="{{asset('img/service/conference.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
                     <h5 class="card-title" style="margin-top:20px">conference</h5>
@@ -387,7 +387,7 @@
                 <div class="card-body">
                   <div class="row">
                   <div class="form-group col-md-6">
-                    <img src="{{asset('img/service/schedule.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
+                    <img src="{{asset('img/service/Exhibitions.png')}}"style="width:140px;height:140px; margin:20px" alt="...">
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
                     <h5 class="card-title" style="margin-top:20px">Exhibitions</h5>

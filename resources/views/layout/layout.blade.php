@@ -48,7 +48,7 @@
             <div class="col-sm-5">
                 <div class="info">
                     <div class="address">
-                        <i class="bi bi-geo-alt"></i>
+                        <a href="https://goo.gl/maps/TfKXZ31MyqYb1VLu9"><i class="bi bi-geo-alt"></i></a>
                         <h4>Location:</h4>
                         <p>Jl. Persatuan No.4, RT.6/RW.9, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430</p>
                     </div>
